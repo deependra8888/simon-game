@@ -9,7 +9,7 @@ const randomColor = () => {
   let newColor = colors[Math.floor(randomIndex)];
   return newColor;
 };
-
+ 
 function play(simon, player) {
     console.log('simon : '  + simon);
     console.log('player : ' + player)
