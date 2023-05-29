@@ -69,3 +69,19 @@ main {
     background-color: yellow;
     border-bottom-right-radius: 1000px;
 }
+
+.green.glow {
+    border: 2px solid white;
+}
+
+.red.glow {
+    border: 2px solid white;
+}
+
+.blue.glow {
+    border: 2px solid white;
+}
+
+.yellow.glow {
+    border: 2px solid white;
+}
