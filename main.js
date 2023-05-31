@@ -7,6 +7,7 @@ blue.addEventListener('click', pushColorToPlayer);
 red.addEventListener('click', pushColorToPlayer);
 yellow.addEventListener('click', pushColorToPlayer);
 
+
 let startBtn = document.querySelector('.start-button');
 startBtn.addEventListener('click', startGame);
 
@@ -77,6 +78,7 @@ function check() {
         }
         console.log('MATCHED!!! :D');
         console.log(`LEVEL:  ${simon.length + 1}`);
+        document.querySelector('.level').innerHTML = `<h1>${simon.length + 1}</h1>`
         turn = 'simon';
         play();
     }
@@ -84,6 +86,7 @@ function check() {
 
 function startGame() {
     if (!turn) {
+      turn = 'simon'
         console.log('Starting Game....');
         player = [];
         simon = [];
